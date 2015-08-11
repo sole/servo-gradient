@@ -21,7 +21,6 @@ window.onload = function() {
 
 		// workaround for https://github.com/servo/servo/issues/7162
 		fr.onload = function() {
-			//this.window.postMessage('hey', '*');
 			this.contentWindow.start('aaa');
 		};
 	}
